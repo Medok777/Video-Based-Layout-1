@@ -1,0 +1,21 @@
+.button {
+    display: inline-block;
+
+    font-family: var(--font-accent);
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: 0.26em;
+    color: #000;
+
+    border-radius: 7px;
+    padding: 18px clamp(0.938rem, 0.256rem + 3.41vw, 2.813rem) 15px;
+    background: var(--accent);
+
+    transition: 0.1s ease-in;
+}
+
+@media (max-width: 800px) {
+    .button {
+        letter-spacing: 0.16em;
+    }
+}

@@ -1,0 +1,38 @@
+:root {
+    --accent: #ffd479;
+
+    --font-base: 'Roboto', sans-serif;
+    --font-accent: 'Bebas Neue', sans-serif;
+}
+
+
+body {
+    background: #1f2a32;
+    color: #fafaf5;
+
+    font-family: var(--font-base);
+    font-weight: 300;
+}
+
+a {
+    color: #fafaf5;
+}
+
+/* .title-1 {
+    font-family: var(--font-accent);
+    font-weight: 700;
+    font-size: 96px;
+    color: var(--accent);
+} */
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-content {
+    max-width: 615px;
+}
